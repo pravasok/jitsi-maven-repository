@@ -12,7 +12,7 @@ Steps to build custom Jitsi Meet SDK
 3. If post install fails because of patch, Run patch -p1 -i patches/react-native+0.61.5-jitsi.2.patch
 4. npx patch-package react-native
 5. Install jq (https://stedolan.github.io/jq/download/)
-6. Run ./android/scripts/release-sdk.sh D:/skilloptima/jitsi-meet-sdk/build/sdk from root folder
+6. Run ./android/scripts/release-sdk.sh D:/jitsi-meet-sdk/build/sdk from root folder
 
 For more information on building own SDK check here 
 https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk#build-and-use-your-own-sdk-artifactsbinaries
